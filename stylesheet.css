@@ -1,0 +1,223 @@
+head
+{
+font-family:"Avenir Next";
+}
+.navbar
+{
+float:left;
+background-color:#404040;
+color:white;
+border:round;
+}
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.nav a
+{
+float:left;
+padding:14px 16px;
+text-align: center;
+background-color:#333;
+color:white;
+font-size:17px;
+}
+
+.nav a:hover 
+{
+background-color:#4CAF50;
+color:white;
+}
+.insidemenu li
+{
+margin-left:6.2rem;
+padding:6px;
+background-color:none;
+color:black;
+font-size:17px;
+display:none;
+}
+
+.ham
+{
+/*float:left;*/
+
+width:20px;
+/* height:5px; */
+max-width: 100%;
+height: auto;
+margin: 4px 1rem 0;
+background-color:white;
+color:white;
+}
+.navbar a:hover
+{
+background-color:#4CAF50;
+color:white;
+}
+body
+{
+/*background-color:#CAFAFE;*/
+font-family:"Avenir Next";
+}
+
+.img1
+{
+/*background:url("book-stack-books-contemporary-cup-309724.jpg") center no-repeat;*/
+max-width: 100%;
+height: auto;
+display:flex;
+flex-basis:30%;
+/* height:90.8vh; */
+width:1500px;
+margin-right:3rem;
+color:black;
+
+
+}
+.insideimg
+{
+position:absolute;
+top: 43%;
+  right: 15%;
+    left: 24%;
+    font-size: 23px;
+    color: white;
+    max-width: 100%;
+    height: auto;
+    font-weight: bold;
+}
+
+
+.copy-container 
+{
+display:flex;
+flex-basis:30%;
+position:absolute;
+height:38vh;
+width:1500px;
+max-width: 100%;
+/* height: auto; */
+text-decoration:none;
+text-align:center;
+background-color:#CAFAFE;
+text-shadow: 0 0 black;
+}
+
+ui li
+{
+text-decoration:none;
+list-style-type: none;
+
+}
+section .h2 
+{
+margin:1vh;
+left:36%;
+position:absolute;
+text-align:center;
+}
+ul li
+{
+padding:14px 14px;
+text-decoration:none;
+top:10%;
+right:80%;
+left:30%;
+text-align:center;
+border:1vh;
+}
+
+.img2
+{
+  max-width: 100%;
+height: auto;
+width:1500px;
+/* height:140vh; */
+right:50%;
+/*object-fit:cover;*/
+display:flex;
+}
+
+.footer ul li
+{
+text-align:center;
+list-style-type: none;
+
+decoration:none;
+margin:1rem;
+padding-rigth:14px 14px;
+color:black;
+text-decoration:none;
+top:10%;
+right:80%;
+}
+.form 
+{
+display:block;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.footer {
+  border-radius: 5px;
+  background-color:#CAFAFE;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
